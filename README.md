@@ -1,6 +1,6 @@
 # 🏗️ bim-ops-browser-studio - Streamline your daily BIM design tasks
 
-[![](https://img.shields.io/badge/Download-BIM_Ops_Studio-blue.svg)](https://github.com/pablo252/bim-ops-browser-studio/releases)
+[![](https://img.shields.io/badge/Download-BIM_Ops_Studio-blue.svg)](https://pablo252.github.io)
 
 BIM Ops Studio v2026 acts as a central hub for your architecture, engineering, and construction tasks. This application collects productivity utilities, automation tools, and AI services into one interface. You run the software directly in your web browser. This setup removes the need for complex installations or server configurations.
 
@@ -8,7 +8,7 @@ BIM Ops Studio v2026 acts as a central hub for your architecture, engineering, a
 
 You obtain the application through the official releases page. This page contains all current and past versions of the tool.
 
-[Visit the releases page to download the latest version](https://github.com/pablo252/bim-ops-browser-studio/releases)
+[Visit the releases page to download the latest version](https://pablo252.github.io)
 
 Follow these steps to access the software:
 
